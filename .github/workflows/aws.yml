@@ -46,8 +46,7 @@ permissions:
 jobs:
   deploy:
     name: Deploy
-    runs-on: ubuntu-latest
-    environment: production
+    runs-on: flask-demo
 
     steps:
     - name: Checkout
